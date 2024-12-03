@@ -1,0 +1,176 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+    font-size: 14px;
+    color: #1c1e21;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+/* Container */
+.container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 480px;
+    margin: 20px;
+}
+
+/* Header */
+h2 {
+    font-size: 1.8rem;
+    color: #1877f2;
+    margin-bottom: 20px;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+    
+   
+}
+
+label {
+    font-size: 0.9rem;
+    color: #333;
+}
+
+input, select {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-top: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input:focus, select:focus {
+    border-color: #1877f2;
+}
+
+button {
+    background-color: #1877f2;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #165eab;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: -200px;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    font-size: 0.95rem;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f4f4f4;
+    color: #555;
+}
+
+table td {
+    background-color: #fafafa;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+table a {
+    color: #1877f2;
+    text-decoration: none;
+}
+
+table a:hover {
+    text-decoration: underline;
+}
+
+/* Links and buttons */
+a {
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+a:hover {
+    text-decoration: underline;
+    
+}
+
+/* Image Styles */
+img {
+    max-width: 100%;
+    border-radius: 6px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    table {
+        font-size: 0.85rem;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    form button {
+        font-size: 0.9rem;
+    }
+}
+.A{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.B{
+    align-items: center;
+}
+.C{
+    display: block;
+    background-color: #1877f2;
+    height: 42px;
+    color: white;
+    text-align: center;
+    border-radius: 7px;
+    text-decoration: none;
+    line-height: 42px;
+    
+}
+.C:hover{
+    background-color: #165eab;
+}
